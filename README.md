@@ -1,3 +1,3 @@
-# RMA_LV2_zad1
+# Inpspiring people using Room database
 
-This is app that enables user to track and add inspiring people from programming world.
+This is app that enables user to track and add inspiring people from programming world using Room database.
