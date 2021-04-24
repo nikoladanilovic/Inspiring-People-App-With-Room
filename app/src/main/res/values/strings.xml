@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CS_InspiringPeople_LV2zad1</string>
+    <string name="tvFullNameInput">Input full name of the inspiring person:</string>
+    <string name="hintInputFullName">For example: Elon Musk</string>
+    <string name="tvDateOfBirthInput">Input date of birth of the inspiring person:</string>
+    <string name="hintDateOfBirth">For example: 01.04.1994.</string>
+    <string name="hintInputDateOfDeath">If person is still alive, leave empty.</string>
+    <string name="tvInputDateOfDeath">Input date of death (in the same format):</string>
+    <string name="tvInputPersonDesc">Input short description about the person:</string>
+    <string name="hintInputPersonDesc">For example: important contributions...</string>
+    <string name="tvInputImageURL">Input inspiring persons image URL:</string>
+    <string name="hintInputImageURL"><![CDATA[<url>.jpg , .png or some other format]]></string>
+    <string name="btnInputAddPerson">ADD PERSON</string>
+    <string name="tvInputQuoteText">Input your favourite famous words of that person:</string>
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inputNewPersonActivity">
+
+    <TextView
+        android:id="@+id/tvInputFormFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvFullNameInput"
+        android:textSize="@dimen/textSizeInputForm"
+        android:layout_margin="@dimen/marginInputForm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/etInputFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintInputFullName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvInputFormFullName"
+        android:textSize="@dimen/textSizeInputForm"
+        android:layout_margin="@dimen/marginInputForm"
+        />
+
+    <TextView
+        android:id="@+id/tvDateOfBirthInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvDateOfBirthInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etInputFullName"
+        android:textSize="@dimen/textSizeInputForm"
+        android:layout_margin="@dimen/marginInputForm"
+        />
+
+    <EditText
+        android:id="@+id/etInputDateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintDateOfBirth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDateOfBirthInput"
+        android:textSize="@dimen/textSizeInputForm"
+        android:layout_margin="@dimen/marginInputForm"
+        />
+
+    <TextView
+        android:id="@+id/tvDateOfDeath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvInputDateOfDeath"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etInputDateOfBirth"
+        android:textSize="@dimen/textSizeInputForm"
+        android:layout_margin="@dimen/marginInputForm"
+        />
+
+    <EditText
+        android:id="@+id/etInputDateOfDeath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintInputDateOfDeath"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDateOfDeath"
+        android:textSize="@dimen/textSizeInputForm"
+        android:layout_margin="@dimen/marginInputForm"
+        />
+
+    <TextView
+        android:id="@+id/tvInputPersonDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvInputPersonDesc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etInputDateOfDeath"
+        android:textSize="@dimen/textSizeInputForm"
+        android:layout_margin="@dimen/marginInputForm"
+        />
+
+    <EditText
+        android:id="@+id/etInputPersonDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintInputPersonDesc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvInputPersonDesc"
+        android:textSize="@dimen/textSizeInputForm"
+        android:layout_margin="@dimen/marginInputForm"
+        />
+
+    <TextView
+        android:id="@+id/tvInputImageURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvInputImageURL"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etInputPersonDesc"
+        android:textSize="@dimen/textSizeInputForm"
+        android:layout_margin="@dimen/marginInputForm"
+        />
+
+    <EditText
+        android:id="@+id/etInputImageURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintInputImageURL"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvInputImageURL"
+        android:textSize="@dimen/textSizeInputForm"
+        android:layout_margin="@dimen/marginInputForm"
+        />
+
+    <TextView
+        android:id="@+id/tvInputQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvInputQuoteText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etInputImageURL"
+        android:textSize="@dimen/textSizeInputForm"
+        android:layout_margin="@dimen/marginInputForm"
+        />
+
+    <EditText
+        android:id="@+id/etInputQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvInputQuote"
+        android:textSize="@dimen/textSizeInputForm"
+        android:layout_margin="@dimen/marginInputForm"
+        />
+
+    <Button
+        android:id="@+id/btnInputAddPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnInputAddPerson"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="@dimen/textSizeInputForm"
+        android:layout_margin="@dimen/marginInputForm"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

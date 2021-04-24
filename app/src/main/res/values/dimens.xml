@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imageItemWidth">150dp</dimen>
+    <dimen name="imageItemHeight">150dp</dimen>
+    <dimen name="datesTextWidth">200dp</dimen>
+    <dimen name="personDescWidth">200dp</dimen>
+    <dimen name="itemDatesMarginTop">10dp</dimen>
+    <dimen name="textSizeLarge">15sp</dimen>
+    <dimen name="rviewHeight">670dp</dimen>
+    <dimen name="rviewPadding">20dp</dimen>
+    <dimen name="textSizeInputForm">13sp</dimen>
+    <dimen name="marginInputForm">7dp</dimen>
+</resources>
